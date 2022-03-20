@@ -1,2 +1,2 @@
 # Web_development-
-For all Web lessons 
+For all Web lessons and tutorials. 
