@@ -1,5 +1,3 @@
-
-
 def main():
     savings = 100
     growth_multiplier = 1.1
