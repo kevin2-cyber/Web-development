@@ -1,16 +1,16 @@
 
 
+def main():
+    savings = 100
+    growth_multiplier = 1.1
+    desc = "compound interest "
 
-savings = 100
-growth_multiplier = 1.1
-desc = "compound interest "
+    year1 = savings * growth_multiplier
+    print(type(year1))
 
-year1 = savings * growth_multiplier
-print(type(year1))
+    double_desc = desc + desc
 
-double_desc = desc + desc
+    print(double_desc)
 
-print(double_desc)
-
-if __name__== __main__:
+if __name__== '__main__':
     main()
