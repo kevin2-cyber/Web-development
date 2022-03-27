@@ -19,6 +19,7 @@
     margin: 3em;
     align-items: center;
     justify-content: space-around;
+    padding: auto;
 }
 
 .nav-bar {
@@ -32,8 +33,12 @@
     overflow: visible;
 }
 
-li {
+.list {
     float: right;
+}
+
+li {
+    list-style-type: none;
 }
 
 li a {
@@ -101,10 +106,14 @@ table th {
     margin-left: 20px;
 }
 
+.hobbies {
+    float: left;
+}
+
 @media only screen and(min-width: 600px) {
     .image-container {
-        height: auto;
-        width: auto;
+        height: 100px;
+        width: 100px;
     }
     .main-container {
         margin: auto;
