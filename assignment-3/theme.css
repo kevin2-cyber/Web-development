@@ -97,6 +97,6 @@ label {
 }
 
 table th {
-    border-style: ridge;
+    border-style: none;
     margin-left: 20px;
 }
