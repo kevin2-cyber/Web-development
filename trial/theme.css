@@ -28,5 +28,5 @@
 }
 
 * {
-    font-family: 'Montserrat', monospace;
+    font-family: var(--body-font);
 }
