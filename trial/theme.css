@@ -4,7 +4,11 @@
 
 /*CSS Variables*/
 
-:root {}
+:root {
+    --first-color: #fff;
+    --second-color: #777;
+    --third-color: #B04607;
+}
 
 * {
     font-family: 'Montserrat', monospace;
