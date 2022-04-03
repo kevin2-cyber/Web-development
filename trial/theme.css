@@ -46,6 +46,8 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 a {
@@ -70,4 +72,5 @@ img {
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
+    margin: 0 5rem;
 }
