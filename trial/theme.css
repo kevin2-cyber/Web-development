@@ -74,3 +74,12 @@ img {
     font-weight: var(--font-semi);
     margin: 0 5rem;
 }
+
+.home_blob {
+    width: 50px !important;
+    height: 40px !important;
+}
+
+.right image {
+    width: 360px;
+}
