@@ -37,3 +37,23 @@ body {
     font-size: var(--normal-font-size);
     color: var(--second-color);
 }
+
+h1 h2 p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
