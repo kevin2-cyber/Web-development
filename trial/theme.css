@@ -12,7 +12,7 @@
     --first-color: hsl(var(--hue-color), 89%, 60%);
     --second-color: hsl(var(--hue-color), 56%, 12%);
     /*==== Font and Typography==== */
-    --body-font: 'Montserrat', sans-serif;
+    --body-font: 'Montserrat', monospace;
     --big-font-size: 2rem;
     --h2-font-size: 1, 25rem;
     --normal-font-size: .938rem;
