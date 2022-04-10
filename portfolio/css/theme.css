@@ -1,17 +1,103 @@
 /* Google Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Poppins:wght@600&display=swap');
-.container {
-    margin: 20;
+* {
+    background-color: var(--background-color);
+}
+
+:root {
+    --background-color: #EFFFFD;
+    --form-background: #d5ebf1;
+    --button-border-color: #0066A2;
+    --botton-color: #4683a7;
+    --hover-color: rgb(128, 140, 177);
+}
+
+.navbar-nav {
+    font-family: 'Montserrat', 'monospace';
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    font-family: 'Poppins', 'monospace';
+    font-weight: 200;
+}
+
+.main-page {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 40px;
+    text-align: center;
+}
+
+.image-container {
+    height: 400px;
+    width: 400px;
+    border-radius: 30%;
+    align-content: center;
+}
+
+.form-container {
+    background-color: var(--form-background);
+    border-radius: 10px;
+    border-style: hidden;
+    margin-left: 400px;
+}
+
+.list-class {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+.list {
+    float: right;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: royalblue;
+    text-align: center;
+    overflow: visible;
+    padding: 16px;
+    text-decoration: none;
+}
+
+label {
+    background: local;
+}
+
+.submit {
+    background: var(--botton-color);
+    color: #f1f1fc;
+    border: none;
+    border-style: hidden;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: var(--button-color);
+    text-shadow: none;
+}
+
+.inputs {
+    background-color: #F1F1FC;
+    border-radius: 7px;
+    border-style: none;
+    margin-left: 10px;
 }
 
 .btn {
     color: hsl(180, 59%, 6%);
     background-color: rgb(14, 165, 189);
     display: flex;
-    border-radius: 35%;
+    border-radius: 30;
     outline: none;
+    align-content: center;
 }
