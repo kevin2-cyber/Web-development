@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Poppins:wght@600&display=swap');
 .container {
     margin: 20;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .btn {
