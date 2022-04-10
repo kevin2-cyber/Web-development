@@ -1,3 +1,14 @@
 /* Google Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Poppins:wght@600&display=swap');
+.container {
+    margin: 20;
+}
+
+.btn {
+    color: hsl(180, 59%, 6%);
+    background-color: rgb(14, 165, 189);
+    display: flex;
+    border-radius: 35%;
+    outline: none;
+}
