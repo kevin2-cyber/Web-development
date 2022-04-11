@@ -65,13 +65,23 @@ while (car > 0) {
 //     num--;
 // } while (num > 0);
 
-var arrayNam = [20, 40, 50.8, "hello"];
-var arrayName = [30, "hi", "world"];
-console.log(arrayNam.concat(arrayName));
+// var arrayNam = [20, 40, 50.8, "hello"];
+// var arrayName = [30, "hi", "world"];
+// console.log(arrayNam.concat(arrayName));
 
 // console.log(arrayNam.pop());
 // console.log(arrayNam.join());
 
 // console.log(arrayNam.toString());
 
-function isValidName() {}
+// function isValidName() {}
+
+const csv_to_array = (data, delimiter = ',', omitFirstRow = false) => data
+
+    .slice(omitFirstRow ? data.indexOf('\n') + 1 : 0)
+    .split('\n')
+    .map(v => v.split(delimiter));
+
+console.log(csv_to_array('a,b\nc,d'));
+console.log(csv_to_array('a;b\nc;d', ';'));
+console.log(csv_to_array('head1,head2\na,b\nc,d', ',', true));
