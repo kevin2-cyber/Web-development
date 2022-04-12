@@ -162,14 +162,14 @@ while (car > 0) {
 // console.log(factors(15)); // [1,3,5,15]
 
 
-const vowel = ["a", "e", "i", "o", "u"];
+const vowels = ["a", "e", "i", "o", "u"];
 
 function checkVowels(str) {
-    var vowel_arr = [];
+    var vowelsArray = [];
 
     for (let letter of str.toLowerCase()) {
-        if (vowel.includes(letter)) {
-            vowel_arr.push(letter);
+        if (vowels.includes(letter)) {
+            vowelsArray.push(letter);
         }
     }
     return vowel_arr;
