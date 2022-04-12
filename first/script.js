@@ -160,3 +160,18 @@ while (car > 0) {
 // }
 
 // console.log(factors(15)); // [1,3,5,15]
+
+
+const vowels = ["a", "e", "i", "o", "u"];
+
+function check_vowels(str) {
+    var vowel_arr = [];
+
+    for (let letter of str.toLowerCase()) {
+        if (vowels.includes(letter)) {
+            vowel_arr.push(letter);
+        }
+    }
+    return vowel_arr;
+}
+console.log(check_vowels("cricket")); // ['i','e']
