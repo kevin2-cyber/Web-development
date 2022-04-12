@@ -77,8 +77,8 @@ while (car > 0) {
 // function isValidName() {}
 
 // const csv_to_array = (data, delimiter = ',', omitFirstRow = false) => data
-//     .slice(omitFirstRow ? data.indexOf('\n') + 1 : 0)
-//     .split('\n').map(v => v.split(delimiter));
+//     .slice(omitFirstRow ? data.indexOf('\num') + 1 : 0)
+//     .split('\num').map(v => v.split(delimiter));
 
 // console.log(csv_to_array('a,b\nc,d'));
 // console.log(csv_to_array('a;b\nc;d', ';'));
@@ -99,3 +99,22 @@ while (car > 0) {
 // }
 
 // celsiusToFahrenheit(20);
+
+
+function testPrime(num) {
+
+    if (num === 1) {
+        return false;
+    } else if (num === 2) {
+        return true;
+    } else {
+        for (var x = 2; x < num; x++) {
+            if (num % x === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+console.log(testPrime(13));
