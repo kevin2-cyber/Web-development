@@ -118,3 +118,21 @@ while (car > 0) {
 // }
 
 // console.log(testPrime(3));
+
+function secondGreatestLowest(array_num) {
+    array_num.sort(function(x, y) {
+        return x - y;
+    });
+    var uniqa = [array_num[0]];
+    var result = [];
+
+    for (var index = 1; index < array_num.length; index++) {
+        if (array_num[index - 1] !== array_num[index]) {
+            uniqa.push(array_num[index]);
+        }
+    }
+    result.push(uniqa[1], uniqa[uniqa.length - 2]);
+    return result.join(',');
+}
+
+console.log(secondGreatestLowest([21, 35, 69, 83, 125]));
