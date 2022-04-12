@@ -117,4 +117,4 @@ function testPrime(num) {
     }
 }
 
-console.log(testPrime(13));
+console.log(testPrime(15));
