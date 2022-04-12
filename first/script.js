@@ -136,3 +136,9 @@ while (car > 0) {
 // }
 
 // console.log(secondGreatestLowest([21, 35, 69, 83, 125]));
+
+// function checkEven(num) {
+//     return num % 2 == 0;
+// }
+// console.log(checkEven(2));  
+// console.log(checkEven(3));
