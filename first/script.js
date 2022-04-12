@@ -162,16 +162,16 @@ while (car > 0) {
 // console.log(factors(15)); // [1,3,5,15]
 
 
-const vowels = ["a", "e", "i", "o", "u"];
+// const vowels = ["a", "e", "i", "o", "u"];
 
-function checkVowels(str) {
-    var vowelsArray = [];
+// function checkVowels(str) {
+//     var vowelsArray = [];
 
-    for (let letter of str.toLowerCase()) {
-        if (vowels.includes(letter)) {
-            vowelsArray.push(letter);
-        }
-    }
-    return vowel_arr;
-}
-console.log(checkVowels("cricket")); // ['i','e']
+//     for (let letter of str.toLowerCase()) {
+//         if (vowels.includes(letter)) {
+//             vowelsArray.push(letter);
+//         }
+//     }
+//     return vowel_arr;
+// }
+// console.log(checkVowels("cricket")); // ['i','e']
