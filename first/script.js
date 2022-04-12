@@ -84,18 +84,18 @@ while (car > 0) {
 // console.log(csv_to_array('a;b\nc;d', ';'));
 // console.log(csv_to_array('head1,head2\na,b\nc,d', ',', true));
 
-function celsiusToFahrenheit(celsius) {
-    var celsTemp = celsius;
-    var celsToFahr = celsTemp * 9 / 5 + 32;
-    var message = celsTemp + '\xB0C is ' + celsToFahr + ' \xB0F.';
-    console.log(message);
-}
+// function celsiusToFahrenheit(celsius) {
+//     var celsTemp = celsius;
+//     var celsToFahr = celsTemp * 9 / 5 + 32;
+//     var message = celsTemp + '\xB0C is ' + celsToFahr + ' \xB0F.';
+//     console.log(message);
+// }
 
-function fahrenheitToCelsius(fahrenheit) {
-    var fahrTemp = fahrenheit;
-    var fahrToCel = (fahrTemp - 32) * 5 / 9;
-    var message = fahrTemp + '\xB0F is ' + fahrToCel + '\xB0C.';
-    console.log(message);
-}
+// function fahrenheitToCelsius(fahrenheit) {
+//     var fahrTemp = fahrenheit;
+//     var fahrToCel = (fahrTemp - 32) * 5 / 9;
+//     var message = fahrTemp + '\xB0F is ' + fahrToCel + '\xB0C.';
+//     console.log(message);
+// }
 
-celsiusToFahrenheit(20);
+// celsiusToFahrenheit(20);
