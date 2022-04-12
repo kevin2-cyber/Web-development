@@ -91,10 +91,10 @@ function celsiusToFahrenheit(celsius) {
     console.log(message);
 }
 
-function fToC(fahrenheit) {
-    var fTemp = fahrenheit;
-    var fToCel = (fTemp - 32) * 5 / 9;
-    var message = fTemp + '\xB0F is ' + fToCel + '\xB0C.';
+function fahrenheitToCelsius(fahrenheit) {
+    var fahrTemp = fahrenheit;
+    var fahrToCel = (fahrTemp - 32) * 5 / 9;
+    var message = fahrTemp + '\xB0F is ' + fahrToCel + '\xB0C.';
     console.log(message);
 }
 
