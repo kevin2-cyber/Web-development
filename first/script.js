@@ -143,20 +143,20 @@ while (car > 0) {
 // console.log(checkEven(2));  
 // console.log(checkEven(3));
 
-function factors(num) {
-    var all_factors = [],
-        index;
+// function factors(num) {
+//     var all_factors = [],
+//         index;
 
-    for (index = 1; index <= Math.floor(Math.sqrt(num)); index += 1)
-        if (num % index === 0) {
-            all_factors.push(index);
-            if (num / index !== index)
-                all_factors.push(num / index);
-        }
-    all_factors.sort(function(x, y) {
-        return x - y;
-    }); // numeric sort
-    return all_factors;
-}
+//     for (index = 1; index <= Math.floor(Math.sqrt(num)); index += 1)
+//         if (num % index === 0) {
+//             all_factors.push(index);
+//             if (num / index !== index)
+//                 all_factors.push(num / index);
+//         }
+//     all_factors.sort(function(x, y) {
+//         return x - y;
+//     }); // numeric sort
+//     return all_factors;
+// }
 
-console.log(factors(15)); // [1,3,5,15]
+// console.log(factors(15)); // [1,3,5,15]
