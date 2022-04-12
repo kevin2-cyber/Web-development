@@ -101,20 +101,20 @@ while (car > 0) {
 // celsiusToFahrenheit(20);
 
 
-function testPrime(num) {
+// function testPrime(num) {
 
-    if (num === 1) {
-        return false;
-    } else if (num === 2) {
-        return true;
-    } else {
-        for (var x = 2; x < num; x++) {
-            if (num % x === 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-}
+//     if (num === 1) {
+//         return false;
+//     } else if (num === 2) {
+//         return true;
+//     } else {
+//         for (var x = 2; x < num; x++) {
+//             if (num % x === 0) {
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+// }
 
-console.log(testPrime(3));
+// console.log(testPrime(3));
