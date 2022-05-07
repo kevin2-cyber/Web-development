@@ -1,3 +1,3 @@
 # Web-development
-For all Web (HTML, CSS and JavaScript) lessons and tutorials. 
+For all Web lessons and tutorials. 
 
