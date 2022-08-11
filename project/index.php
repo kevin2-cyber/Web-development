@@ -3,18 +3,18 @@
         $hasError = false;
         $errors = array();
         $error_msg;
-        $firstName = $_POST['firstName'];
-        $lastName = $_POST['lastName'];
+        $first_name = $_POST['firstName'];
+        $last_name = $_POST['lastName'];
         $email = $_POST['email'];
         $amount = $_POST['amount'];
         $password = $_POST['password'];
-        $confirmPassword = $_POST['confirmPassword'];
-        if(empty($firstName)){
+        $confirm_password = $_POST['confirmPassword'];
+        if(empty($first_name)){
             $hasError = true;
             $error_msg = "Input your first name";
             array_push($errors, $error_msg);
         }
-        if(empty($lastName)){
+        if(empty($last_name)){
             $hasError = true;
             $error_msg = "Input your Last name";
             array_push($errors, $error_msg);
@@ -34,11 +34,11 @@
             $error_msg = "Enter your password";
             array_push($errors, $error_msg);
         }
-        if(empty($confirmPassword)){
+        if(empty($confirm_password)){
             $hasError = true;
             $error_msg = "Confirm your password";
             array_push($errors, $error_msg);
-        }elseif($password != $confirmPassword){
+        }elseif($password != $confirm_password){
             $hasError = true;
             $error_msg = "Passwords do not match!";
             array_push($errors, $error_msg);
