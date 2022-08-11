@@ -130,7 +130,7 @@
         <div class="row">
             <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" name = "password" placeholder="Enterpassword..">
+                <input type="password" name = "password" placeholder="Enter password..">
             </div>
             <div class="input-group">
                 <label for="confirmPassword">Confirm Password</label>
