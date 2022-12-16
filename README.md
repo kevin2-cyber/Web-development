@@ -1,3 +1,2 @@
 # Web-development
-For all Web lessons and tutorials. 
-Will
+For all Web lessons and tutorials.
