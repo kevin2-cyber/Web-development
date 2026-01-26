@@ -3,7 +3,24 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.json([
+    {
+    "name": "Bob",
+    "email": "bob@gmail.com"
+  },
+    {
+    "name": "Alice",
+    "email": "alice@hotmail.com"
+  },
+    {
+    "name": "Jake",
+    "email": "jake@yahoo.com"
+  },
+    {
+    "name": "Mariah",
+    "email": "mariah@yahoo.co.uk"
+  }
+])
 })
 
 app.listen(port, () => {
